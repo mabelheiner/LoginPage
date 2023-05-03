@@ -77,6 +77,9 @@ function register(){
 }
 function login(){
 
+    console.log("Emails:", emailArray);
+    console.log("Passwords:", passwordArray);
+    
     var email = document.getElementById("se").value;
     var password = document.getElementById("sp").value;
 
@@ -123,3 +126,6 @@ function forgot(){
     alert("email is send to your email check it in 24hr. \n Thanks");
     document.getElementById("fe").value ="";
 }
+
+console.log("Emails:", emailArray);
+console.log("Passwords:", passwordArray)
